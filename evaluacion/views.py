@@ -11,3 +11,6 @@ def elegir(request):
     template = loader.get_template('evaluacion/evaluacion.html')
     context = {}
     return render(request,'evaluacion/evaluacion.html')
+
+
+
